@@ -14,6 +14,7 @@
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* ctrConductorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ctrConductorTests.m */; };
 		11D1A2F320CAFA9E000508D9 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		1260E0767C18470E8616551E /* FilsonSoftThin-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 22AF61CC32644628B9C030FA /* FilsonSoftThin-Italic.otf */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
@@ -21,8 +22,12 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		13CD578755B94F909E2201B2 /* FilsonSoftHeavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 61E4DBA83DA34DAABBE432B0 /* FilsonSoftHeavy.otf */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		1726A8669BF346AD95D2BCA4 /* FilsonSoftBlack-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = A49A305928A44C3DB7E56B04 /* FilsonSoftBlack-Italic.otf */; };
+		249FFA16261648F9A7F6E58A /* FilsonSoft-Medium-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 13424BA103E74827AF67041B /* FilsonSoft-Medium-Italic.otf */; };
+		263C789062414472BD409F11 /* FilsonSoft-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 30FDBA425773424FA5F7C193 /* FilsonSoft-Thin.otf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -36,8 +41,20 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* ctrConductorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ctrConductorTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
+		4773295E12DD4AB687A181D0 /* FilsonSoft-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6E6EF209D21641A095016E71 /* FilsonSoft-BoldItalic.otf */; };
+		5597B5808F0C45348EE1D9DF /* FilsonSoft-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0FC3E1F82A724E19A5903F25 /* FilsonSoft-Bold.otf */; };
+		5E5B5C2821923CFE00A7A73F /* libART.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5B5C0021923CE400A7A73F /* libART.a */; };
+		757F9C1EB964434F9DB311EE /* FilsonSoftLight-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F904DFD2C98340DF84DD22EB /* FilsonSoftLight-Italic.otf */; };
+		7D7B3385464F429D82EE2185 /* FilsonSoftBook-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D380B85069BD45D78D1F4917 /* FilsonSoftBook-Italic.otf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		A0BF0CD6E56241C4A7A96CBD /* FilsonSoft-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8F799D86DB2D4B988AC61224 /* FilsonSoft-Light.otf */; };
+		A41A8C56A3934FE0A1A6D83A /* FilsonSoftRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9180DB1A9A774EA0849729D2 /* FilsonSoftRegular.otf */; };
+		A5C0D4723B7E4556B4237902 /* FilsonSoftHeavy-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0BA31C19E20F48E79D5F1350 /* FilsonSoftHeavy-Italic.otf */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		BA7C11BD3B7E4CB79740A79E /* FilsonSoftRegular-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C11A153FF9E742549F89E65A /* FilsonSoftRegular-Italic.otf */; };
+		C0CDFB58629D4DE3A42CB80E /* FilsonSoftBook.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3994EE1E2D614BDB8FBA5373 /* FilsonSoftBook.otf */; };
+		E8BABB039F4445468D42729B /* FilsonSoftMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D7DFBF89252248B7B9011743 /* FilsonSoftMedium.otf */; };
+		EFB84B1468594A67BCC413A0 /* FilsonSoftBlack.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1531D4CC41B24C4AA5D42E9A /* FilsonSoftBlack.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -279,6 +296,20 @@
 			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
 			remoteInfo = "jschelpers-tvOS";
 		};
+		5E5B5BFF21923CE400A7A73F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E5B5BFA21923CE400A7A73F /* ART.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0CF68AC11AF0540F00FF9E5C;
+			remoteInfo = ART;
+		};
+		5E5B5C0121923CE400A7A73F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E5B5BFA21923CE400A7A73F /* ART.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 323A12871E5F266B004975B8;
+			remoteInfo = "ART-tvOS";
+		};
 		5E9157321DD0AC6500FF2AA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */;
@@ -326,6 +357,9 @@
 		00E356EE1AD99517003FC87E /* ctrConductorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ctrConductorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ctrConductorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ctrConductorTests.m; sourceTree = "<group>"; };
+		0BA31C19E20F48E79D5F1350 /* FilsonSoftHeavy-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "FilsonSoftHeavy-Italic.otf"; path = "../src/assets/fonts/FilsonSoftHeavy-Italic.otf"; sourceTree = "<group>"; };
+		0FC3E1F82A724E19A5903F25 /* FilsonSoft-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "FilsonSoft-Bold.otf"; path = "../src/assets/fonts/FilsonSoft-Bold.otf"; sourceTree = "<group>"; };
+		13424BA103E74827AF67041B /* FilsonSoft-Medium-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "FilsonSoft-Medium-Italic.otf"; path = "../src/assets/fonts/FilsonSoft-Medium-Italic.otf"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* ctrConductor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ctrConductor.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -336,13 +370,27 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ctrConductor/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ctrConductor/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		1531D4CC41B24C4AA5D42E9A /* FilsonSoftBlack.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FilsonSoftBlack.otf; path = ../src/assets/fonts/FilsonSoftBlack.otf; sourceTree = "<group>"; };
+		22AF61CC32644628B9C030FA /* FilsonSoftThin-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "FilsonSoftThin-Italic.otf"; path = "../src/assets/fonts/FilsonSoftThin-Italic.otf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* ctrConductor-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ctrConductor-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* ctrConductor-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ctrConductor-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		30FDBA425773424FA5F7C193 /* FilsonSoft-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "FilsonSoft-Thin.otf"; path = "../src/assets/fonts/FilsonSoft-Thin.otf"; sourceTree = "<group>"; };
+		3994EE1E2D614BDB8FBA5373 /* FilsonSoftBook.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FilsonSoftBook.otf; path = ../src/assets/fonts/FilsonSoftBook.otf; sourceTree = "<group>"; };
+		5E5B5BFA21923CE400A7A73F /* ART.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ART.xcodeproj; path = "../node_modules/react-native/Libraries/ART/ART.xcodeproj"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		61E4DBA83DA34DAABBE432B0 /* FilsonSoftHeavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FilsonSoftHeavy.otf; path = ../src/assets/fonts/FilsonSoftHeavy.otf; sourceTree = "<group>"; };
+		6E6EF209D21641A095016E71 /* FilsonSoft-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "FilsonSoft-BoldItalic.otf"; path = "../src/assets/fonts/FilsonSoft-BoldItalic.otf"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		8F799D86DB2D4B988AC61224 /* FilsonSoft-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "FilsonSoft-Light.otf"; path = "../src/assets/fonts/FilsonSoft-Light.otf"; sourceTree = "<group>"; };
+		9180DB1A9A774EA0849729D2 /* FilsonSoftRegular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FilsonSoftRegular.otf; path = ../src/assets/fonts/FilsonSoftRegular.otf; sourceTree = "<group>"; };
+		A49A305928A44C3DB7E56B04 /* FilsonSoftBlack-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "FilsonSoftBlack-Italic.otf"; path = "../src/assets/fonts/FilsonSoftBlack-Italic.otf"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
+		C11A153FF9E742549F89E65A /* FilsonSoftRegular-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "FilsonSoftRegular-Italic.otf"; path = "../src/assets/fonts/FilsonSoftRegular-Italic.otf"; sourceTree = "<group>"; };
+		D380B85069BD45D78D1F4917 /* FilsonSoftBook-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "FilsonSoftBook-Italic.otf"; path = "../src/assets/fonts/FilsonSoftBook-Italic.otf"; sourceTree = "<group>"; };
+		D7DFBF89252248B7B9011743 /* FilsonSoftMedium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FilsonSoftMedium.otf; path = ../src/assets/fonts/FilsonSoftMedium.otf; sourceTree = "<group>"; };
+		F904DFD2C98340DF84DD22EB /* FilsonSoftLight-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "FilsonSoftLight-Italic.otf"; path = "../src/assets/fonts/FilsonSoftLight-Italic.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -358,6 +406,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5B5C2821923CFE00A7A73F /* libART.a in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				11D1A2F320CAFA9E000508D9 /* libRCTAnimation.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
@@ -523,6 +572,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5E5B5BFB21923CE400A7A73F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E5B5C0021923CE400A7A73F /* libART.a */,
+				5E5B5C0221923CE400A7A73F /* libART-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -530,6 +588,29 @@
 				5E9157351DD0AC6500FF2AA8 /* libRCTAnimation.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		69A0A5ED9A484A7588E8B365 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0FC3E1F82A724E19A5903F25 /* FilsonSoft-Bold.otf */,
+				6E6EF209D21641A095016E71 /* FilsonSoft-BoldItalic.otf */,
+				8F799D86DB2D4B988AC61224 /* FilsonSoft-Light.otf */,
+				13424BA103E74827AF67041B /* FilsonSoft-Medium-Italic.otf */,
+				30FDBA425773424FA5F7C193 /* FilsonSoft-Thin.otf */,
+				A49A305928A44C3DB7E56B04 /* FilsonSoftBlack-Italic.otf */,
+				1531D4CC41B24C4AA5D42E9A /* FilsonSoftBlack.otf */,
+				D380B85069BD45D78D1F4917 /* FilsonSoftBook-Italic.otf */,
+				3994EE1E2D614BDB8FBA5373 /* FilsonSoftBook.otf */,
+				0BA31C19E20F48E79D5F1350 /* FilsonSoftHeavy-Italic.otf */,
+				61E4DBA83DA34DAABBE432B0 /* FilsonSoftHeavy.otf */,
+				F904DFD2C98340DF84DD22EB /* FilsonSoftLight-Italic.otf */,
+				D7DFBF89252248B7B9011743 /* FilsonSoftMedium.otf */,
+				C11A153FF9E742549F89E65A /* FilsonSoftRegular-Italic.otf */,
+				9180DB1A9A774EA0849729D2 /* FilsonSoftRegular.otf */,
+				22AF61CC32644628B9C030FA /* FilsonSoftThin-Italic.otf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		78C398B11ACF4ADC00677621 /* Products */ = {
@@ -544,6 +625,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				5E5B5BFA21923CE400A7A73F /* ART.xcodeproj */,
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
@@ -577,6 +659,7 @@
 				00E356EF1AD99517003FC87E /* ctrConductorTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				69A0A5ED9A484A7588E8B365 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -684,7 +767,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -718,6 +801,10 @@
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = 5E5B5BFB21923CE400A7A73F /* Products */;
+					ProjectRef = 5E5B5BFA21923CE400A7A73F /* ART.xcodeproj */;
+				},
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
 					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
@@ -1002,6 +1089,20 @@
 			remoteRef = 3DAD3EAE1DF850E9000B6D8A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		5E5B5C0021923CE400A7A73F /* libART.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libART.a;
+			remoteRef = 5E5B5BFF21923CE400A7A73F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5E5B5C0221923CE400A7A73F /* libART-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libART-tvOS.a";
+			remoteRef = 5E5B5C0121923CE400A7A73F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1053,6 +1154,22 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				5597B5808F0C45348EE1D9DF /* FilsonSoft-Bold.otf in Resources */,
+				4773295E12DD4AB687A181D0 /* FilsonSoft-BoldItalic.otf in Resources */,
+				A0BF0CD6E56241C4A7A96CBD /* FilsonSoft-Light.otf in Resources */,
+				249FFA16261648F9A7F6E58A /* FilsonSoft-Medium-Italic.otf in Resources */,
+				263C789062414472BD409F11 /* FilsonSoft-Thin.otf in Resources */,
+				1726A8669BF346AD95D2BCA4 /* FilsonSoftBlack-Italic.otf in Resources */,
+				EFB84B1468594A67BCC413A0 /* FilsonSoftBlack.otf in Resources */,
+				7D7B3385464F429D82EE2185 /* FilsonSoftBook-Italic.otf in Resources */,
+				C0CDFB58629D4DE3A42CB80E /* FilsonSoftBook.otf in Resources */,
+				A5C0D4723B7E4556B4237902 /* FilsonSoftHeavy-Italic.otf in Resources */,
+				13CD578755B94F909E2201B2 /* FilsonSoftHeavy.otf in Resources */,
+				757F9C1EB964434F9DB311EE /* FilsonSoftLight-Italic.otf in Resources */,
+				E8BABB039F4445468D42729B /* FilsonSoftMedium.otf in Resources */,
+				BA7C11BD3B7E4CB79740A79E /* FilsonSoftRegular-Italic.otf in Resources */,
+				A41A8C56A3934FE0A1A6D83A /* FilsonSoftRegular.otf in Resources */,
+				1260E0767C18470E8616551E /* FilsonSoftThin-Italic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

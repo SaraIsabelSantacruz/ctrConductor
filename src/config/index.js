@@ -1,0 +1,1 @@
+export const NETWORK_INTERFACE = 'https://api-todo-list-graphql.herokuapp.com/graphql'
