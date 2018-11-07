@@ -57,7 +57,6 @@ const WithModal = createStackNavigator(
   },
   
 )
-
 const SwitchNavigatorStack = createSwitchNavigator(
   {
     App: WithModal,
