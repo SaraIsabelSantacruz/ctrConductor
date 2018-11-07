@@ -3,6 +3,7 @@ import {
   createMaterialTopTabNavigator,
   createSwitchNavigator
 } from 'react-navigation'
+
 import {
   TravelScreen,
   ProfileScreen,
@@ -11,6 +12,7 @@ import {
   LoadingScreen,
   CameraScreen
 } from '../screens'
+
 import colors from '../styles/colors'
 
 const TabNavigator = createMaterialTopTabNavigator(
@@ -43,9 +45,7 @@ const TabNavigator = createMaterialTopTabNavigator(
 
 const WithModal = createStackNavigator(
   {
-    Main: {
-      screen: TabNavigator
-    },
+    Main: TabNavigator,
     Camera: CameraScreen
   },
   {
@@ -55,8 +55,8 @@ const WithModal = createStackNavigator(
       gesturesEnabled: true,
     }
   },
-  
 )
+
 const SwitchNavigatorStack = createSwitchNavigator(
   {
     App: WithModal,

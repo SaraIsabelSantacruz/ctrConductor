@@ -7,9 +7,12 @@ import { Bubbles } from 'react-native-loader'
 class LoadingScreen extends Component {
   componentDidMount () {
     const { navigation, authentication } = this.props
+    console.log('hudheuhue')
     if (authentication.loggedIn) {
-      navigation.navigate('App')
+      console.log('logged')
+      navigation.navigate('Travel')
     } else {
+      console.log('logged')
       navigation.navigate('Login')
     }
   }
